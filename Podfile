@@ -4,8 +4,7 @@
 target 'snyk_ios_test' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-  pod 'Alamofire'
-  pod 'AlamofireImage'
+  pod 'Alamofire', '1.1.4'
   pod 'AZSClient'	
   # Pods for snyk_ios_test
 
